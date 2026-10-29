@@ -4,3 +4,13 @@ target
 .env
 .env.*
 !.env.example
+
+# Local IDE, environments and generated files
+.idea/
+.venv/
+__pycache__/
+cmake-build-*/
+build/
+vcpkg_installed/
+CMakeUserPresets.json
+detection/results/

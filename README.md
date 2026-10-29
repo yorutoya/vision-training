@@ -1,3 +1,14 @@
+# 我的视觉作业：检测路线
+
+实现语言为 C++17，使用 OpenCV、ONNX Runtime CPU、yaml-cpp 和 nlohmann/json。
+完成视频逐帧检测、NMS、平面 PnP 和相机坐标系三维角点 JSONL 导出。
+
+- [安装、编译与运行](detection/IMPLEMENTATION.md)
+- [代码理解与验收问答](detection/EXPLAIN.md)
+- 程序入口：`detection/src/main.cpp`
+- 以下保留教师原始任务说明。
+
+---
 # lyf 的第三次求助
 
 [中文](README.md) · [English](README.en.md)

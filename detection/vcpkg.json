@@ -1,0 +1,21 @@
+{
+  "name": "vision-detection",
+  "version-string": "0.1.0",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": [
+        "calib3d",
+        "dnn",
+        "ffmpeg",
+        "highgui",
+        "jpeg",
+        "png"
+      ]
+    },
+    "yaml-cpp",
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "15b12b99a227d51e21c86dffd40385439eac87a0"
+}
